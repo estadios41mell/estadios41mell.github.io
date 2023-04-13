@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión</title>
+  <script src="index.html"></script>
+  <!--
+    Carga el núcleo de Firebase
+    JS SDK
+  -->
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js">
+    </script>
+  <!--
+    Agrega el manejo de
+    autenticación.
+  -->
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js">
+    </script>
+  <!--
+    Agrega el manejo de bases de
+    datos.
+  -->
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js">
+    </script>
+  <!--
+    Configura la app usando la
+    información del sitio de
+    Firebase.
+  -->
+  <script src="google-login.html">
+  </script>
+  <script src="js/init.js">
+  </script>
+  <script type="module"
+    src="cmp/mi-nav.js">
+    </script>
+  <script type="module"
+    src="cmp/mi-footer.js">
+    </script>
+  <script type="module"
+    src="cmp/mi-progreso.js">
+    </script>
+  <link rel="stylesheet"
+    href="css/estilos.css">
+</head>
+<head>
+    <h1>Registro de Estadio</h1>
+        <title>Operaciones</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+    <head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <form autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="productCode">ID </label><br>
+                            <input type="text" name="productCode" id="productCode">
+                        </div>
+                        <div>
+                            <label for="product">Nombre</label><br>
+                            <input type="text" name="product" id="product">
+                        </div>
+                        <div>
+                            <label for="pais">Pais</label><br>
+                            <input type="text" name="pais" id="pais">
+                        </div>
+                        <div>
+                            <label for="perPrice">Localidad </label>
+                            <input type="text" name="perPrice" id="perPrice">
+                        </div>
+                        <div>
+                            <label for="ISO2">Capacidad</label>
+                            <input type="number" name="qty" id="qty">
+                        </div>
+
+                        <div class="form_action--button">
+                            <input type="submit" value="Registrar">
+                            <input type="reset" value="Limpiar">
+                        </div><br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Pais</th>
+                                <th>Localidad</th>
+                                <th>Capacidad</th>
+                            </tr>
+                            <footer>
+                                <p>&copy; Elias Lopez Leonardo</p>
+                              </footer>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </head>
+    <script src="js/init.js">
+    </script>
+    <script type="module"
+      src="cmp/mi-nav.js">
+      </script>
+    <script type="module"
+      src="cmp/mi-footer.js">
+      </script>
+    <script type="module"
+      src="cmp/mi-progreso.js">
+      </script>
+    <script  src="script.js"></script>
+    </script>
+    <script src="js/segu.js"></script>
+    <script type="module"
+        src="CtrlSesion.js"></script>
+        <script src="google-login.html"></script>
+        <script src="facebook-login.html"></script>
+        <script src="js/login.js"></script>
+    
+           
+    </body>
+</main>
+
+<script
+src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js">
+</script>
+
+<script
+src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js">
+</script>
+
+<script
+src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js">
+</script>
+
+  <script src="js/config.js"></script>
+
+  <script src="js/login.js"></script>
+
+
+</body>
+</html>
